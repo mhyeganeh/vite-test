@@ -1,0 +1,33 @@
+/*=== Digital-7 ===*/
+@font-face {
+    font-family: Digital-7;
+    src: url(/fonts/Digital-7/Digital-7.woff) format('woff'),
+    url(/fonts/Digital-7/Digital-7.eot) format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .version{
+        font-size: 1.5rem;
+
+        .digit-font{
+            font-family: Digital-7, Arial, serif;
+            color: #d91b3d;
+        }
+    }
+
+    .logo-wrapper{
+        width: 250px;
+        height: 250px;
+        border: 2px solid #ECECEC;
+        background: url(/img/logo.png) no-repeat center / contain;
+    }
+}
